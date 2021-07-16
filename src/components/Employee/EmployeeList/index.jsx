@@ -56,9 +56,6 @@ const EmployeeList = () => {
                                     <Button style={{ marginRight: 10 }} variant="contained" color="secondary" onClick={() => {onDeleteEmployee(emp.id) }}>
                                         Xoá
                                     </Button>
-                                    <Button variant="contained" color="primary" onClick={() => { onEditEmployee(emp) }}>
-                                        Sửa
-                                    </Button>
                                 </TableCell>
                             </TableRow>
                         ))}
