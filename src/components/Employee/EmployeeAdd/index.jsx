@@ -40,7 +40,6 @@ const EmployeeAdd = () => {
                         <Controller
                             name="multipartFile"
                             control={control}
-                            defaultValue=""
                             rules={{
                                 required: "Ảnh không được để trống",
                                 validate: value => {
